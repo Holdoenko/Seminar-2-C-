@@ -2,6 +2,7 @@
 Console.WriteLine("Введите число от 1 до 7: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if(number < 6)
+if(number > 0)
 {
     Console.WriteLine("Рабочий день, где 1-Понедельник, 2-Вторник, 3-Среда, 4-Четверг, 5-Пятница");
 }
